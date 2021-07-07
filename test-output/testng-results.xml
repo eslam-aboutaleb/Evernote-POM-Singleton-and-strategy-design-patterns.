@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-03T13:37:04 EET" name="Default suite" finished-at="2021-07-03T13:38:30 EET" duration-ms="85915">
+    <groups>
+    </groups>
+    <test started-at="2021-07-03T13:37:04 EET" name="Default test" finished-at="2021-07-03T13:38:30 EET" duration-ms="85915">
+      <class name="Test.Evernote.Login">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Test.Evernote.Login@5a9800f8]" started-at="2021-07-03T13:37:04 EET" name="Setup" finished-at="2021-07-03T13:37:09 EET" duration-ms="4831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="LoginWithNoCredentials()[pri:0, instance:Test.Evernote.Login@5a9800f8]" started-at="2021-07-03T13:37:09 EET" name="LoginWithNoCredentials" finished-at="2021-07-03T13:37:16 EET" duration-ms="6741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithNoCredentials -->
+        <test-method signature="LoginFunc()[pri:1, instance:Test.Evernote.Login@5a9800f8]" started-at="2021-07-03T13:37:16 EET" name="LoginFunc" finished-at="2021-07-03T13:38:30 EET" duration-ms="73628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFunc -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Test.Evernote.Login@5a9800f8]" started-at="2021-07-03T13:38:30 EET" name="TearDown" finished-at="2021-07-03T13:38:30 EET" duration-ms="689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Test.Evernote.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
